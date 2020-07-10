@@ -1,0 +1,15 @@
+.about{
+  max-width: 850px;
+  padding: 30px;
+  &-link {
+    color: #cccccc;
+    background-color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: '\2039';
+      margin-right: 10px;
+    }
+  }
+}
